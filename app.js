@@ -69,11 +69,11 @@
      let raf55={kod: "5.5.RAF", goster:false}
 
      let raflar= [
-     [raf51,raf52,raf53,raf54,raf55]
-     [raf41,raf42,raf43,raf44,raf45]
-     [raf31,raf32,raf33,raf34,raf35]
-     [raf21,raf22,raf23,raf24,raf25]
-     [raf11,raf12,raf13,raf14,raf15]
+     [raf51,raf52,raf53,raf54,raf55],
+     [raf41,raf42,raf43,raf44,raf45],
+     [raf31,raf32,raf33,raf34,raf35],
+     [raf21,raf22,raf23,raf24,raf25],
+     [raf11,raf12,raf13,raf14,raf15],
 
      ];
 
@@ -116,9 +116,9 @@
         }
     }
 
-    rafOlustur();
+    rafolustur();
     let kitapIsim= prompt("Lütfen Bir Kitap İsmi Giriniz!");
-    let rafKod= bul(kitapIsmi);
+    let rafKod= kodBul(kitapIsmi);
     console.log(rafKod);
 
   
